@@ -49,23 +49,7 @@ All generated dynamically using AI + Folium (OpenStreetMap).
 ---
 
 ## 📁 Project Structure
-AI Travel Planner/
-│
-├── utils/
-│   ├── itinerary_ai.py
-│   ├── maps.py
-│   ├── travel_utils.py
-│   ├── styles.css
-│
-├── .streamlit/
-│   └── secrets.toml
-│
-├── .env
-├── .gitignore
-├── app.py
-├── requirements.txt
-└── README.md
-
+<pre> ```text AI Travel Planner/ ├─ utils/ │ ├─ itinerary_ai.py │ ├─ maps.py │ ├─ travel_utils.py ├─ styles.css ├─ .streamlit/ │ └─ secrets.toml ├─ .env ├─ .gitignore ├─ app.py ├─ requirements.txt └─ README.md ``` </pre>
 ---
 
 ## 🖼️ Screenshots
