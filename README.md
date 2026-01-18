@@ -5,10 +5,8 @@
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)](https://streamlit.io/)
 [![Groq AI](https://img.shields.io/badge/Powered%20By-Groq%20Llama%203-orange?style=for-the-badge)](https://groq.com/)
-
-An AI-driven travel planner for students, generating personalized and budget-friendly itineraries with real-time location data and map visualizations.
 </div>
-
+An AI-driven travel planner for students, generating personalized and budget-friendly itineraries with real-time location data and map visualizations.
 
 ## 🌍 Overview
 
