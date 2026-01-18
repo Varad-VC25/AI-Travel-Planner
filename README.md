@@ -8,7 +8,7 @@
 </div>
 An AI-driven travel planner for students, generating personalized and budget-friendly itineraries with real-time location data and map visualizations.
 
----
+### ---
 
 ## 🌍 Overview
 
