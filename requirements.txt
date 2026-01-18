@@ -1,0 +1,11 @@
+streamlit
+streamlit-folium
+folium
+groq
+pandas
+python-dotenv
+requests
+plotly
+polyline
+beautifulsoup4
+lxml

@@ -1,0 +1,21 @@
+# Ignore environment files
+.env
+utils/.streamlit/secrets.toml
+
+# Ignore Python cache files
+__pycache__/
+utils/__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# Virtual environments
+venv/
+.venv/
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

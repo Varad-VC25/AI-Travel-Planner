@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap');
+
+/* GLOBAL ANIMATIONS & THEME */
+:root {
+    --primary: #fffb1e;   
+    --secondary: #d40000;
+}
+
+/* Force Font & Background */
+.stApp {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), 
+                url("https://images.unsplash.com/photo-1500534314209-a25ddb2bd429");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track { background: rgba(255, 255, 255, 0.05); }
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover { background: rgba(0, 0, 0, 0.4); }
+
+
+
+/* BUTTONS */
+div.stButton>button {
+    background: linear-gradient(135deg, #ff0000,#ff9a3c); /* static orange → red gradient */
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    border-radius: 99px;
+    border: none;
+    padding: 12px 24px;
+    width: 100%;
+    transition: transform 0.2s ease, filter 0.2s ease; /* smooth hover effect */
+}
+
+div.stButton>button:hover {
+    transform: scale(1.03);   /* slightly grow on hover */
+    filter: brightness(1.05); /* slightly brighter */
+}
+
+
+/* DAY CARDS */
+.day-card {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 5px solid rgba(0, 0, 0, 0.3); /* match button color */
+    border-radius: 20px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 8px 32px 0 rgba(4, 4, 4, 0.1); /* subtle red shadow */
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.day-card h3 {
+    color: #060606;
+    border-bottom: 2px dashed rgba(0, 0, 0, 0.5); /* match button gradient */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* TIMELINE */
+.segment {
+    border-left: 3px solid #ff9a3c; /* match button gradient start */
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.segment h4 {
+    margin: 0;
+    color: #ff4e50; /* match button gradient end */
+}
+
+.segment ul {
+    list-style: none;
+    padding: 0;
+}
+
+.segment li {
+    background: rgba(255, 255, 255, 0.15);
+    margin: 8px 0;
+    padding: 12px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* BADGES */
+.price-tag {
+    background: #ffaa00;
+    color: rgb(5, 5, 5);
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.85em;
+    font-weight: 600;
+    white-space: nowrap;
+    flex-shrink: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    float: right;
+    position: relative;
+    z-index: 10;
+    margin-left: auto; 
+}
+
+/* GIFT GUIDE */
+.gift-card {
+    border-left: 4px solid #ffd700 !important; /* Bright Yellow */
+}
