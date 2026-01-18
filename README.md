@@ -71,22 +71,22 @@ AI Travel Planner/
 ## 🖼️ Screenshots
 
 ### 🏠 Home / Input Page
-![Home Screen](assets/screenshots/home.png)
+![Home Screen](assets/home.png)
 
 ---
 
 ### 🤖 AI Generated Itinerary
-![Generating Itinerary](assets/screenshots/output.png)
+![Generated Itinerary](assets/output.png)
 
 ---
 
 ### 💸 Budget Summary
-![Budget Summary](assets/screenshots/budget.png)
+![Budget Summary](assets/budget.png)
 
 ---
 
 ### 🗺️ Map View 
-![Map View](assets/screenshots/map.png)
+![Map View](assets/map.png)
 
 
 
