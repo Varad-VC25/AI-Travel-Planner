@@ -8,6 +8,8 @@
 </div>
 An AI-driven travel planner for students, generating personalized and budget-friendly itineraries with real-time location data and map visualizations.
 
+---
+
 ## 🌍 Overview
 
 AI Travel Planner is a Streamlit-based travel planning app that uses AI (Groq LLM) to generate smart, student-friendly itineraries.
