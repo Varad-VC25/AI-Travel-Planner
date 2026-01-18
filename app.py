@@ -81,7 +81,7 @@ def main():
 
     # ----------------- UI: Input Form -----------------
     if not st.session_state.itinerary_generated:
-        st.markdown('<div class="landing-container"><h1>✈️ AI Student Travel Assistant</h1><p>Smart, budget-friendly itineraries in seconds.</p></div>', unsafe_allow_html=True)
+        st.markdown('<div class="landing-container"><h1>✈️ AI Student Tavel Assistant</h1><p>Smart, budget-friendly itineraries in seconds.</p></div>', unsafe_allow_html=True)
 
 
         col_l, col_center, col_r = st.columns([1, 2, 1])
