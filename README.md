@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧳 AI-Powered Student Travel Planner
+# 🧳 AI Student Travel Planner
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)](https://streamlit.io/)
@@ -76,7 +76,7 @@ Groq API Key (Free): https://console.groq.com/
 
 1️⃣ Clone the Repository
 
-git clone https://github.com/Varad-VC25/AI-Travel-Planner.git
+git clone https://github.com/Varad-VC25/AI-Travel-Planner.git   
 cd AI-Travel-Planner
 
 
